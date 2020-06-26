@@ -13,8 +13,12 @@
     <header>
         <nav>
             <?php wp_nav_menu(array(
+
                 'theme_location' => 'hooft-menu'
             )); ?>
         </nav>
-        <h1><a href="<?php echo home_url() ?>"><?php bloginfo('name') ?></a></h1>
+        <div class="jumbotron">
+            <h1 class="display-4"><a href="<?php echo home_url() ?>"><?php bloginfo('name') ?></a></h1>
+            <p class="lead"><?php bloginfo('descrition') ?></p>
+        </div>
     </header>

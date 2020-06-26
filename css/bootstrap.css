@@ -131,12 +131,12 @@ sup {
 }
 
 a {
-  color: red;
+  color: rgb(216, 63, 216);
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #b30000;
+  color: rgb(141, 37, 141);
   text-decoration: underline;
 }
 
