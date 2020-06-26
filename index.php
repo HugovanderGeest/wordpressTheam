@@ -11,4 +11,5 @@ if (have_posts()) :
 else : ?>
     <p>er zijn geen berichten</p>
 <?php endif ?>
+
 <?php get_footer(); ?>
