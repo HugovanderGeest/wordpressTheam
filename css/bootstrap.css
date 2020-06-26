@@ -5418,14 +5418,14 @@ a.text-dark:focus {
   }
 }
 .bg-primary {
-  background-color: red !important;
+  background-color: darkslategray !important;
 }
 
 a.bg-primary:hover,
 a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #cc0000 !important;
+  background-color: rgb(30, 56, 56) !important;
 }
 
 .bg-secondary {
