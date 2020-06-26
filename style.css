@@ -19,6 +19,11 @@ body {
   background-color: lightslategray;
 }
 
+.jumbotron {
+  background-size: cover;
+  background-position: center center;
+}
+
 /* validatie-icon */
 .validatie img {
   height: 1em;
